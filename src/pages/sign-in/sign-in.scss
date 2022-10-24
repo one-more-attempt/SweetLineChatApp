@@ -1,0 +1,53 @@
+.mainSignInWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    // background-color: skyblue;
+    background: linear-gradient(45deg, #d299c2, #fef9d7);
+
+
+    .signInFormWrapper {
+        background-color: #f7f7f7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        overflow: hidden;
+        min-width: 50vw;
+        min-height: 50vh;
+        height: 50vh;
+        box-shadow: 0px 0px 10px 5px rgba(34, 60, 80, 0.3);
+
+        .headerAppName {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Alfa Slab One', cursive;
+            font-size: 26px;
+            margin-bottom: 40px;
+        }
+
+        .loginText {
+            font-size: 16px;
+        }
+
+        .inputsBlock {
+            width: 65%;
+            margin-bottom: 15px;
+        }
+
+        .SignInButton {
+            margin-top: 10px;
+            width: 35%;
+        }
+
+        .registerLink {
+            font-size: 12px;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+    }
+}

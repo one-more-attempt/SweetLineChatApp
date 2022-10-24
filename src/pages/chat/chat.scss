@@ -1,0 +1,130 @@
+.bodyWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    // background-color: rgb(207, 235, 245);
+    // background: linear-gradient(45deg, #d299c2, #fef9d7);
+    // background-color: #f7f7f7;
+
+    .chatWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: #f7f7f7;
+        border-radius: 5px;
+        min-width: 80vw;
+        width: 80vw;
+        overflow: hidden;
+        box-shadow: 0px 0px 10px 5px rgba(34, 60, 80, 0.3);
+
+        .header {
+            // border: 1px solid black;
+            width: 100%;
+            min-height: 7vh;
+            display: flex;
+            align-items: center;
+
+            .headerAppName {
+                display: flex;
+                justify-content: center;
+                // border: 1px solid green;
+                font-family: 'Alfa Slab One', cursive;
+                font-size: 30px;
+                width: 95%;
+            }
+
+            .headerUserPanel {
+                // border: 1px solid red;
+                display: flex;
+                justify-content: center;
+            }
+
+        }
+
+        .chatWindow {
+            width: 100%;
+            min-height: 60vh;
+            height: 50vh;
+            overflow: scroll;
+            overflow-x: hidden;
+            background: linear-gradient(45deg, #d299c2, #fef9d7);
+            background-position: center;
+            ;
+
+            .message {
+                display: flex;
+                flex-direction: column;
+                padding: 10px;
+                gap: 10px;
+
+                .messageHeader {
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 10px;
+
+                    .messageHeaderData {
+                        display: flex;
+                        flex-direction: column;
+
+                        .messageUserName {
+                            // font-family: 'Alfa Slab One', cursive;
+                            font-size: 16px;
+                            color: rgb(59, 59, 59);
+                           
+                        }
+
+                        .messageTimeStamp {
+                            font-family: 'Alfa Slab One', cursive;
+                            font-size: 14px;
+                            color: grey;
+                           
+                        }
+                    }
+                }
+
+                .messageText {
+                    font-size: 18px;
+                }
+            }
+
+            .otherMessage {
+                background: white;
+                margin: 10px;
+                width: 47.5%;
+                margin-right: auto;
+                border-radius: 5px;
+                box-shadow: -5px -5px 5px 0px rgba(34, 60, 80, 0.2);
+            }
+
+            .myMessage {
+                background: rgb(224, 240, 247);
+                margin: 10px;
+                width: 47.5%;
+                margin-left: auto;
+                border-radius: 5px;
+                box-shadow: -5px -5px 5px 0px rgba(34, 60, 80, 0.2)
+            }
+        }
+
+    }
+
+    .footer {
+        display: flex;
+        width: 100%;
+        // height: %;
+        padding: 10px;
+        flex-direction: row;
+        gap: 5px;
+
+        .inputMessage {
+            width: 75%;
+        }
+
+        .sendButton {
+            width: 25%;
+        }
+
+    }
+}
