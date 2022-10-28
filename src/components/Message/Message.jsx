@@ -19,7 +19,10 @@ const Message = ({ currentUser, messages }) => {
             if (item.avatarURL) {
               avatar = <Avatar alt="Remy Sharp" src={item.avatarURL} />;
             } else {
-              avatar = <Avatar />;
+              // avatar = <Avatar />;
+              avatar = (
+                <Avatar>{currentUser.displayName[0].toUpperCase()}</Avatar>
+              );
             }
 
             return (

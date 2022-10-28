@@ -1,0 +1,73 @@
+.mainSignInWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #d299c2, #fef9d7);
+}
+
+.mainSignInWrapper .signInFormWrapper {
+  background-color: #f7f7f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 5px;
+  overflow: hidden;
+  min-width: 50vw;
+  min-height: 50vh;
+  height: 50vh;
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(34, 60, 80, 0.3);
+          box-shadow: 0px 0px 10px 5px rgba(34, 60, 80, 0.3);
+}
+
+.mainSignInWrapper .signInFormWrapper .headerAppName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+
+.mainSignInWrapper .signInFormWrapper .loginText {
+  font-size: 16px;
+}
+
+.mainSignInWrapper .signInFormWrapper .inputsBlock {
+  width: 65%;
+  margin-bottom: 15px;
+}
+
+.mainSignInWrapper .signInFormWrapper .SignInButton {
+  margin-top: 10px;
+  width: 35%;
+}
+
+.mainSignInWrapper .signInFormWrapper .registerLink {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 15px;
+}
+/*# sourceMappingURL=sign-in.css.map */

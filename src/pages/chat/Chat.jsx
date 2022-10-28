@@ -31,7 +31,7 @@ const Chat = () => {
   const ref = query(
     collection(db, "messages"),
     orderBy("createdAt", "desc"),
-    limit("10")
+    limit("25")
   );
 
   const [messages, loadingMessages, errorMessages] = useCollectionData(ref);

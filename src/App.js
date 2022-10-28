@@ -65,11 +65,11 @@ function App() {
 
   return (
     <Router>
-      {/* <button onClick={() => signOut(auth)}>logout</button> */}
       <Routes>
-        <Route path="/" element={<EntryRoute />} />
         <Route path="/login" element={<SignIn />} />
         <Route path="/register" element={<SignUp />} />
+        <Route path="/" element={<EntryRoute />} />
+
         <Route
           path="/chat"
           element={

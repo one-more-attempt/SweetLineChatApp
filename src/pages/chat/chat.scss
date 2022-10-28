@@ -58,6 +58,7 @@
                 flex-direction: column;
                 padding: 10px;
                 gap: 10px;
+                word-break: break-all;
 
                 .messageHeader {
                     display: flex;
@@ -72,14 +73,14 @@
                             // font-family: 'Alfa Slab One', cursive;
                             font-size: 16px;
                             color: rgb(59, 59, 59);
-                           
+
                         }
 
                         .messageTimeStamp {
                             font-family: 'Alfa Slab One', cursive;
                             font-size: 14px;
                             color: grey;
-                           
+
                         }
                     }
                 }

@@ -1,0 +1,75 @@
+.mainSignUpWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-color: skyblue;
+  background: linear-gradient(45deg, #d299c2, #fef9d7);
+}
+
+.mainSignUpWrapper .signUpFormWrapper {
+  -webkit-box-shadow: 0px 0px 10px 6px rgba(34, 60, 80, 0.3);
+          box-shadow: 0px 0px 10px 6px rgba(34, 60, 80, 0.3);
+  background-color: #f7f7f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 25px;
+  min-width: 75vh;
+  min-height: 75vh;
+}
+
+.mainSignUpWrapper .signUpFormWrapper .headerAppName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.mainSignUpWrapper .signUpFormWrapper .registerText {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.mainSignUpWrapper .signUpFormWrapper .inputsBlock {
+  width: 75%;
+  margin-bottom: 10px;
+}
+
+.mainSignUpWrapper .signUpFormWrapper .SignUpButton {
+  margin-top: 10px;
+  width: 50%;
+}
+
+.mainSignUpWrapper .signUpFormWrapper .SignInLink {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=sign-up.css.map */

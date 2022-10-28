@@ -11,8 +11,17 @@ import Tooltip from "@mui/material/Tooltip";
 import PersonAdd from "@mui/icons-material/PersonAdd";
 import Settings from "@mui/icons-material/Settings";
 import Logout from "@mui/icons-material/Logout";
+import {
+  BrowserRouter as Router,
+  Link,
+  Navigate,
+  Route,
+  Routes,
+  useNavigate,
+} from "react-router-dom";
 
 export default function AccountMenu({ currentUser, goToLogout }) {
+  const navigate = useNavigate();
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
@@ -20,6 +29,9 @@ export default function AccountMenu({ currentUser, goToLogout }) {
   };
   const handleClose = () => {
     setAnchorEl(null);
+  };
+  const goToRegistration = () => {
+    navigate("/register");
   };
 
   console.log(currentUser);
@@ -93,7 +105,7 @@ export default function AccountMenu({ currentUser, goToLogout }) {
             Settings
           </MenuItem>
 
-          <MenuItem>
+          <MenuItem onClick={goToRegistration}>
             <ListItemIcon>
               <PersonAdd fontSize="small" />
             </ListItemIcon>

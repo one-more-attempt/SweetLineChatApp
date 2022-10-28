@@ -1,0 +1,167 @@
+.bodyWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.bodyWrapper .chatWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  min-width: 80vw;
+  width: 80vw;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(34, 60, 80, 0.3);
+          box-shadow: 0px 0px 10px 5px rgba(34, 60, 80, 0.3);
+}
+
+.bodyWrapper .chatWrapper .header {
+  width: 100%;
+  min-height: 7vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bodyWrapper .chatWrapper .header .headerAppName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 30px;
+  width: 95%;
+}
+
+.bodyWrapper .chatWrapper .header .headerUserPanel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bodyWrapper .chatWrapper .chatWindow {
+  width: 100%;
+  min-height: 60vh;
+  height: 50vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  background: linear-gradient(45deg, #d299c2, #fef9d7);
+  background-position: center;
+}
+
+.bodyWrapper .chatWrapper .chatWindow .message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+  word-break: break-all;
+}
+
+.bodyWrapper .chatWrapper .chatWindow .message .messageHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 10px;
+}
+
+.bodyWrapper .chatWrapper .chatWindow .message .messageHeader .messageHeaderData {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.bodyWrapper .chatWrapper .chatWindow .message .messageHeader .messageHeaderData .messageUserName {
+  font-size: 16px;
+  color: #3b3b3b;
+}
+
+.bodyWrapper .chatWrapper .chatWindow .message .messageHeader .messageHeaderData .messageTimeStamp {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 14px;
+  color: grey;
+}
+
+.bodyWrapper .chatWrapper .chatWindow .message .messageText {
+  font-size: 18px;
+}
+
+.bodyWrapper .chatWrapper .chatWindow .otherMessage {
+  background: white;
+  margin: 10px;
+  width: 47.5%;
+  margin-right: auto;
+  border-radius: 5px;
+  -webkit-box-shadow: -5px -5px 5px 0px rgba(34, 60, 80, 0.2);
+          box-shadow: -5px -5px 5px 0px rgba(34, 60, 80, 0.2);
+}
+
+.bodyWrapper .chatWrapper .chatWindow .myMessage {
+  background: #e0f0f7;
+  margin: 10px;
+  width: 47.5%;
+  margin-left: auto;
+  border-radius: 5px;
+  -webkit-box-shadow: -5px -5px 5px 0px rgba(34, 60, 80, 0.2);
+          box-shadow: -5px -5px 5px 0px rgba(34, 60, 80, 0.2);
+}
+
+.bodyWrapper .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 5px;
+}
+
+.bodyWrapper .footer .inputMessage {
+  width: 75%;
+}
+
+.bodyWrapper .footer .sendButton {
+  width: 25%;
+}
+/*# sourceMappingURL=chat.css.map */
